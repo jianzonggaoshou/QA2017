@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 
+# test821
 class Page(object):
 
 	#  基础类，用于页面对象的继承
@@ -69,6 +70,8 @@ def main():
 	finally:
 		# 关闭浏览器窗口
 		driver.close()
+
+print 'hello world821'
 
 if __name__ == '__main__':
 	main()
